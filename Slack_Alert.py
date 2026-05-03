@@ -50,7 +50,6 @@ class Runner(object):
 
         # Slack Webhook URL
         url="https://hooks.slack.com/services/-------------"
-        # url = "https://hooks.slack.com/services/-------------"
         headers = {'Content-Type': 'application/json'}
         requests.post(url, headers=headers, data=dumps(data))
 
